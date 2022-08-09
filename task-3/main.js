@@ -4,6 +4,9 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
   
-    // Write code here
+    let input = result.input
+    let number = input.split(',')
+    var n = parseInt.number(number())
+    
   
 });
